@@ -1,0 +1,18 @@
+import os
+os.system('cls')
+
+#ENTRADA
+primeiro_numero = int(input("Digite o primeiro número:"))
+segundo_numero = int(input("Digite o segundo número:"))
+terceiro_numero = int(input("Digite o terceiro numero:"))
+
+#PROCESSAMENTO
+maior = max(primeiro_numero, segundo_numero, terceiro_numero)
+menor = min(primeiro_numero, segundo_numero, terceiro_numero)
+
+print(f'\nPrimeiro número: {primeiro_numero}')
+print(f'Segundo número: {segundo_numero}')
+print(f'Terceiro número: {terceiro_numero}')
+print(f'o maior numero é {maior}')
+print(f'o menor numero é {menor}')
+
